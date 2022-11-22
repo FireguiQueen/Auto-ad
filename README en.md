@@ -9,7 +9,6 @@ __I made it to have fun and learn.__
 - Select and send files (images of the product)
 
 ## Roadmap 
-* [X] Acess and interect with any website
 * [X] Implement click, type, and file selection actions
 * [X] Publish an auto ad on OLX 
 * [ ] Refactoring
