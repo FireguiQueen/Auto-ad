@@ -1,7 +1,7 @@
 const puppeteer = require('puppeteer'); 
 
 // Inf 
-const url = "https://www.olx.com.br/"
+var url = "https://www.olx.com.br/"; 
 
 
 (async() =>{ 
@@ -10,6 +10,7 @@ const url = "https://www.olx.com.br/"
         userDataDir: 'credenciais'  
     });
     const pagina = await navegador.newPage(); 
-    await pagina.goto(URL);
-    await pagina.screenshot({path:'image.png'});
+    await pagina.goto(url);
+
+
 }) ();
