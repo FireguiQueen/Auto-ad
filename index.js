@@ -1,10 +1,11 @@
 const puppeteer = require('puppeteer');
-const pptr = require('puppeteer-core');
+const credenciais = _dirname + '/.credentials'; 
 
 (async() =>{ 
-    const navegador = await pptr.launch({
+    const navegador = await puppeteer.launch({
         executablePath: "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
         headless: false
+        userDatadir: dir, 
     });
     const pagina = await navegador.newPage(); 
     await pagina.goto('https://web.whatsapp.com/');
