@@ -1,13 +1,15 @@
-const puppeteer = require('puppeteer');
-const credenciais = _dirname + '/.credentials'; 
+const puppeteer = require('puppeteer'); 
+
+// Inf 
+const url = "https://www.olx.com.br/"
+
 
 (async() =>{ 
     const navegador = await puppeteer.launch({
-        executablePath: "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
-        headless: false
-        userDatadir: dir, 
+        headless: false,
+        userDataDir: 'credenciais'  
     });
     const pagina = await navegador.newPage(); 
-    await pagina.goto('https://web.whatsapp.com/');
+    await pagina.goto(URL);
     await pagina.screenshot({path:'image.png'});
 }) ();
