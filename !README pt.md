@@ -20,9 +20,9 @@ Seleciona e envia arquivos _(imagens do produto)_</li>
 </br>
 
 ### Roadmap
-* [x] Implementar ações de seleção de clique, digitação e arquivo
-* [x] Acessar e interagir com qualquer site
-* [ ] Publicar um anúncio automático no OLX
+* [X] Implementar ações de seleção de clique, digitação e arquivo
+* [X] Acessar e interagir com qualquer site
+* [X] Publicar um anúncio automático no OLX
 * [ ] Refatoração 
 * [ ] Criar uma interface gráfica para o usuário
 * [ ] Anúncio automático em outros sites de venda/compra de produtos

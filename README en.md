@@ -10,8 +10,8 @@ __I made it to have fun and learn.__
 
 ## Roadmap 
 * [X] Acess and interect with any website
-* [ ] Implement click, type, and file selection actions
-* [ ] Publish an auto ad on OLX 
+* [X] Implement click, type, and file selection actions
+* [X] Publish an auto ad on OLX 
 * [ ] Refactoring
 * [ ] Build a graphic user interface
 * [ ] Auto ad on other websites  
