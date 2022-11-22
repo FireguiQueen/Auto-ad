@@ -1,6 +1,6 @@
 # Auto-ad
-This app can make automatic ads for you on OLX. When you search for a product on most websites, you'll see the latest products advertised, the program was created precisely for this.
-I made this for fun and learn. 
+This app can make automatic ads for you on OLX. When you search for a product on most websites, you'll see the latest products advertised, the program was created precisely for this. </br>
+__I made it to have fun and learn.__  
 
 </br>
 
