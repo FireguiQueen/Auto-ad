@@ -8,7 +8,6 @@ __I made it to have fun and learn.__
 - Text (for the title and description about the product)
 - Select and send files (images of the product)
 
-
 ## Roadmap 
 * [X] Acess and interect with any website
 * [ ] Implement click, type, and file selection actions
