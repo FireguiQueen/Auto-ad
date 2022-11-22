@@ -7,8 +7,13 @@ Se você deseja rankear seu produto na OLX de forma gratuita, publicar seu produ
 
 ## O que esta aplicação faz? 
 <ul type="square">
-  <li>Coloca texto (para o título e descrição sobre o produto)</li> </br>
-<li>Seleciona e envia arquivos (imagens do produto)</li>
+<li>
+  
+Coloca texto _(para o título e descrição sobre o produto)_
+</li>
+<li>
+  
+Seleciona e envia arquivos _(imagens do produto)_</li>
 </ul>
 
 
