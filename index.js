@@ -2,6 +2,8 @@ const puppeteer = require('puppeteer');
 var path_browser = "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe"; // Caminho do seu browser
 var url = "https://www.olx.com.br/"; 
 
+var urlt = "https://rj.olx.com.br/serra-angra-dos-reis-e-regiao/computadores-e-acessorios/placa-de-video-rx-580-8gb-1115530761"; 
+
 // INFORMAÇÕES DO PRODUTO (ALTERAR CONFORME A NECESSIDADE)
 let product ={
     title: "Pc gamer", 
@@ -20,8 +22,15 @@ var cep = "27259330";
     });
     const pag = await navegador.newPage(); 
     await pag.setViewport({width: 1020, height: 780});
-    await pag.goto(url);
+    await pag.goto(urlt);
+    var a = 1
+    while (a < 1000){
+        await pag.reload();
+        a ++
+    }
 
+
+    /*
     await pag.click('[data-testid="button-wrapper"]');
     const categorias = await pag.waitForXPath('//*[@id="category_item-3000"]');
         categorias.click();
