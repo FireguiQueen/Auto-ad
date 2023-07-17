@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const puppeteer = require('puppeteer'); 
 const url = 'https://9f.com/register?redirect=PartnerPage&query=%7B%7D';
 
