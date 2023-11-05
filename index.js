@@ -12,7 +12,7 @@ let product ={
 }
 
 // INFORMAÇÕES PESSOAIS
-var cep = "27259330";     
+var cep = "21231330";     
 
 (async() =>{ 
     const navegador = await puppeteer.launch({
